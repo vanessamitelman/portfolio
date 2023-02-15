@@ -5,6 +5,7 @@ export const SectionWrapper = styled.section`
   border-radius: 0.5rem;
   box-shadow: 0px 2px 11px 4px black;
   transition: all 1s linear;
+
   .img-container {
     text-align: center;
     img {

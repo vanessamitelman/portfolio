@@ -15,6 +15,7 @@ export const NavbarWrapper = styled.div`
       width: calc(100vw - 4rem);
     }
   }
+
   .navbar-container {
     display: flex;
     gap: 2rem;
@@ -49,7 +50,6 @@ export const NavbarWrapper = styled.div`
       background: -webkit-linear-gradient(top, #9580af 0%, #c4518c 100%);
       background: linear-gradient(to bottom, #9580af 0%, #c4518c 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9580af', endColorstr='#c4518c',GradientType=0 );
-
       color: #000;
       padding: 2rem;
       z-index: 1;

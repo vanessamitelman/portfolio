@@ -14,7 +14,37 @@ export const MenuWrapper = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
-    .logo-container {
+    @keyframes rotate-in {
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(45deg);
+      }
+      100% {
+        transform: rotate(90deg);
+      }
+    }
+    @keyframes rotate-out {
+      0% {
+        transform: rotate(90deg);
+      }
+      50% {
+        transform: rotate(45deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    .icon-btn {
+      animation: rotate-out 250ms ease-in;
+      transform: rotate(0deg);
+      &.open-sidebar {
+        animation: rotate-in 250ms ease-in;
+        transform: rotate(90deg);
+      }
+    }
+     {
       img {
         width: 2rem;
       }

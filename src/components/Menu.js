@@ -30,7 +30,12 @@ const Menu = () => {
         </button>
       </div>
       <div className='navbar-menu'>
-        <button className='no-border icon-btn small-screens' onClick={toggle}>
+        <button
+          className={`no-border icon-btn small-screens ${
+            isSidebarOpen ? 'open-sidebar' : ''
+          }`}
+          onClick={toggle}
+        >
           <GoThreeBars />
         </button>
         <div className='small-screens'>{isSidebarOpen && <Navbar />}</div>

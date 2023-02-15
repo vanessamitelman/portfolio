@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const PageWrapper = styled.div`
+  flex-grow: 1;
   .download-container {
     display: flex;
     justify-content: space-between;

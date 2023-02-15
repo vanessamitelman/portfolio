@@ -12,7 +12,7 @@ const Resume = () => {
         <h1>Resume</h1>
         <div className='download-link'>
           <a href={cv} download>
-            <div>Download Resume</div>
+            <div>Download</div>
             <BsDownload size='1.5rem' />
           </a>
         </div>

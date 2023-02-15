@@ -2,7 +2,7 @@ import { NavbarWrapper } from '../assets/wrappers/NavbarWrapper';
 import { NavLink } from 'react-router-dom';
 import { navList } from '../services/navList';
 import { IoIosClose } from 'react-icons/io';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { closeSidebar } from '../features/appSlice';
 
 const Navbar = () => {
