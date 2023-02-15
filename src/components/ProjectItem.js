@@ -22,7 +22,7 @@ const ProjectItem = ({ id, title, description, features, link, image }) => {
         />
       </div>
       <div className='link-container'>
-        <a href={link} target='_blank'>
+        <a href={link} target='_blank' rel='noreferrer'>
           Visit: {title}
         </a>
       </div>
