@@ -9,7 +9,7 @@ const ProjectItem = ({ id, title, description, features, link, image }) => {
         {id}. {title}
       </h2>
       <div className='image-container'>
-        <img src={image} />
+        <img src={image} alt={title} />
       </div>
       <p>{description}</p>
       <div>
