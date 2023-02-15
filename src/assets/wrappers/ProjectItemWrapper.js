@@ -12,7 +12,7 @@ export const ProjectItemWrapper = styled.div`
         max-height: 50vh;
       }
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (max-width: 1200px) {
       img {
         width: 100%;
       }
