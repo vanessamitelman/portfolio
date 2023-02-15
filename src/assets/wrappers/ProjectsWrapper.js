@@ -5,7 +5,7 @@ export const ProjectsWrapper = styled.div`
     @media screen and (min-width: 1200px) {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 1rem;
+      gap: 2rem;
     }
   }
 `;
