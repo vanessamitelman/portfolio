@@ -23,7 +23,8 @@ const Section = ({ title, text1, text2, image, link, linkTitle }) => {
     return () => {
       if (refVal) observer.unobserve(refVal);
     };
-  }, [containerRef, options]);
+    // eslint-disable-next-line
+  }, [containerRef]);
   return (
     <SectionWrapper
       ref={containerRef}
