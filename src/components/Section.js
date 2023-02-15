@@ -17,10 +17,11 @@ const Section = ({ title, text1, text2, image, link, linkTitle }) => {
   };
   useEffect(() => {
     const observer = new IntersectionObserver(callbackFunction, options);
-    if (containerRef.current) observer.observe(containerRef.current);
+    const refVal = containerRef.current;
+    if (refVal) observer.observe(refVal);
 
     return () => {
-      if (containerRef.current) observer.unobserve(containerRef.current);
+      if (refVal) observer.unobserve(refVal);
     };
   }, [containerRef]);
   return (
