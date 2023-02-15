@@ -15,9 +15,6 @@ const Section = ({ title, text1, text2, image, link, linkTitle }) => {
     rootMargin: '0px',
     threshold: 0.0
   };
-  const sanitizedData = (data) => ({
-    __html: DOMPurify.sanitize(data)
-  });
   useEffect(() => {
     const observer = new IntersectionObserver(callbackFunction, options);
     if (containerRef.current) observer.observe(containerRef.current);
