@@ -6,8 +6,16 @@ export const ProjectItemWrapper = styled.div`
   border-radius: 5px;
   margin: 4rem;
   .image-container {
-    img {
-      width: 100%;
+    @media screen and (min-width: 1200px) {
+      img {
+        width: auto;
+        max-height: 50vh;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      img {
+        width: 100%;
+      }
     }
   }
 `;
