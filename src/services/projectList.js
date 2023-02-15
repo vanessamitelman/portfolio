@@ -18,7 +18,9 @@ export const projectList = [
     id: 2,
     title: 'Newsletter form',
     description: 'This is a simple newsletter form design',
-    features: `<div>Website using html and css only</div>`,
+    features: `<ul>
+    <li>Website using html and css only</li>
+    <li>Responsive web design</li></ul>`,
     link: 'https://newsletter-form-vm.netlify.app/',
     image: newsletter
   }
