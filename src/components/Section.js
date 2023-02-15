@@ -23,7 +23,7 @@ const Section = ({ title, text1, text2, image, link, linkTitle }) => {
     return () => {
       if (refVal) observer.unobserve(refVal);
     };
-  }, [containerRef]);
+  }, [containerRef, options]);
   return (
     <SectionWrapper
       ref={containerRef}
