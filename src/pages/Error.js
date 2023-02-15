@@ -1,10 +1,14 @@
 import React from 'react';
 import { PageWrapper } from '../assets/wrappers/PageWrapper';
+import { ErrorWrapper } from '../assets/wrappers/ErrorWrapper';
 
 const Error = () => {
   return (
     <PageWrapper>
-      <h1>Error 404</h1>
+      <ErrorWrapper>
+        <h1>Error 404</h1>
+        <h2>This page does not exist</h2>
+      </ErrorWrapper>
     </PageWrapper>
   );
 };
