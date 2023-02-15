@@ -1,4 +1,5 @@
 import multi from '../assets/images/multi-language-website.jpg';
+import newsletter from '../assets/images/newsletter-form.png';
 
 export const projectList = [
   {
@@ -12,5 +13,13 @@ export const projectList = [
     <li>Redux toolkit</li></ul>`,
     link: 'https://multilanguage-vm.netlify.app/',
     image: multi
+  },
+  {
+    id: 2,
+    title: 'Newsletter form',
+    description: 'This is a simple newsletter form design',
+    features: `<div>Website using html and css only</div>`,
+    link: 'https://newsletter-form-vm.netlify.app/',
+    image: newsletter
   }
 ];
