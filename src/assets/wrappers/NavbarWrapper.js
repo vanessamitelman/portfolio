@@ -25,14 +25,19 @@ export const NavbarWrapper = styled.div`
       letter-spacing: -1px;
       @media screen and (max-width: 768px) {
         margin-bottom: 1rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
       a {
         text-decoration: none;
         color: black;
         font-size: 1.2rem;
+
         &.active {
           border-bottom: 2px solid #ffe988;
           text-shadow: 1px 19px 12px #ffe988;
+          padding-bottom: 0.2rem;
         }
       }
     }
