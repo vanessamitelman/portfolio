@@ -23,6 +23,9 @@ export const NavbarWrapper = styled.div`
     .navbar-item {
       text-transform: uppercase;
       letter-spacing: -1px;
+      @media screen and (max-width: 768px) {
+        line-height: 1.5rem;
+      }
       a {
         text-decoration: none;
         color: black;
