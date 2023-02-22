@@ -73,6 +73,7 @@ export const NavbarWrapper = styled.div`
         position: absolute;
         top: 0;
         right: 0;
+        padding: 0;
       }
     }
   }
