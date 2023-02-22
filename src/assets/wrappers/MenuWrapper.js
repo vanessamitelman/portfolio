@@ -6,6 +6,9 @@ export const MenuWrapper = styled.div`
   justify-content: space-between;
   padding: 0.5rem 2rem;
   box-shadow: 0px 0px 9px 0px black;
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem 0.5rem;
+  }
   @media screen and (min-width: 768px) {
     .logo-container {
       img {
