@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const ProjectItemWrapper = styled.div`
-  box-shadow: 0px 0px 6px 4px #fff;
+  box-shadow: 3px 3px 3px 0 #fff;
   padding: 1rem;
   border-radius: 5px;
   margin: 2rem auto;
+  border: 1px solid #fff;
+  outline: none;
   .image-container {
     @media screen and (min-width: 1200px) {
       img {
