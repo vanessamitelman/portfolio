@@ -38,6 +38,7 @@ a {
 .icon-btn {
   font-size: 2rem;
   color: #000;
+  outline: none;
 }
 
 p {
