@@ -30,6 +30,7 @@ export const NavbarWrapper = styled.div`
         font-size: 1.2rem;
         @media screen and (max-width: 768px) {
           margin-bottom: 1.5rem;
+          border-bottom: 1px solid black;
         }
         &.active {
           border-bottom: 2px solid #ffe988;
