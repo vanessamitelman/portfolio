@@ -6,10 +6,15 @@ const ProjectItem = ({ id, title, description, features, link, image }) => {
   return (
     <ProjectItemWrapper>
       <h2>
-        {id}. {title}
+        {id}.{' '}
+        <a href={link} target='_blank' rel='noopener noreferrer'>
+          {title}
+        </a>
       </h2>
       <div className='image-container'>
-        <img src={image} alt={title} />
+        <a href={link} target='_blank' rel='noopener noreferrer'>
+          <img src={image} alt={title} />
+        </a>
       </div>
       <p>{description}</p>
       <div>
